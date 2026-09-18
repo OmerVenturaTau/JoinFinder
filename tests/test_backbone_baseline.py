@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 
 
-SCRIPT = Path(__file__).resolve().parents[1] / "Debugs/baseline comparisons/compare_clusters_pairs_backbone.py"
+SCRIPT = Path(__file__).resolve().parents[1] / "debug_tools/compare_clusters_pairs_backbone.py"
 SPEC = importlib.util.spec_from_file_location("compare_clusters_pairs_backbone", SCRIPT)
 MODULE = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None

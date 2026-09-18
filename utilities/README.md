@@ -18,7 +18,7 @@ Top-level helpers:
 - `checkpoint_utils.py`: checkpoint inspection and compatibility loading.
 
 Keep this package importable by active code. Exploratory visualizations belong in
-`Debugs/` or `Drafts/`, not here.
+`debug_tools/` or `Drafts/`, not here.
 
 Extraction-sensitive modules:
 

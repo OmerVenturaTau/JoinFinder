@@ -9,7 +9,7 @@ and ALTO/XML metadata, then uses those representations for manuscript
 classification, fragment projection, nearest-neighbor search, and graph-based
 join analysis.
 
-The model is intentionally multimodal. A page is represented through visual text
+The model is multimodal. A page is represented through visual text
 tiles, OCR-derived glyph crops, and optional OCR word/line features. These streams
 are encoded separately, fused into a shared latent space, supervised during
 training with manuscript labels, and reused after training to compare manuscript
@@ -340,14 +340,6 @@ results_analysis/ + Debugs/
 ### Workflow 1: Prepare Training Tables
 
 Purpose: create or refresh DB tables that `main.py` can train from.
-
-Inputs:
-
-- `db_config.ini` with PostgreSQL credentials.
-- NAS manuscript images under the roots configured in `system.py`.
-- ALTO/XML roots or `xml_path` values in DB rows.
-- `preprocess/finetune/OrientalManuscripts.txt` and generated
-  `preprocess/colored_image_paths.xlsx`.
 
 Main output:
 

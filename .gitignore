@@ -14,9 +14,7 @@ build/
 *.sqlite3
 **/__pycache__/
 db_config.ini
-nohup.out
 wandb/
 logs/
-Drafts/AfterTune/diagnosis/
 .cursor/
 tests.out
