@@ -1,0 +1,44 @@
+{
+  "model": "Hcompany/NeoMME-800M-Retriever",
+  "input": "separate ALTO text-region crop and raw OCR document encodings; no metadata",
+  "fusion": "reports both normalized vector averaging and equal-weight concatenation of normalized image/OCR dense vectors",
+  "num_test_pages": 242,
+  "single_modality_embedding_dim": 1792,
+  "fused_embedding_dim": 3584,
+  "representations": {
+    "image_crop_only": {
+      "mAP": 0.1409047693014145,
+      "KNN@1": 0.16115702688694,
+      "KNN@5": 0.2975206673145294,
+      "KNN@10": 0.3719008266925812
+    },
+    "ocr_only": {
+      "mAP": 0.1303822249174118,
+      "KNN@1": 0.09090909361839294,
+      "KNN@5": 0.28099173307418823,
+      "KNN@10": 0.39669421315193176
+    },
+    "image_ocr_normalized_vector_average": {
+      "mAP": 0.16947270929813385,
+      "KNN@1": 0.1818181872367859,
+      "KNN@5": 0.3512396812438965,
+      "KNN@10": 0.43388429284095764
+    },
+    "image_ocr_equal_weight_fusion": {
+      "mAP": 0.1800193190574646,
+      "KNN@1": 0.20661157369613647,
+      "KNN@5": 0.3636363744735718,
+      "KNN@10": 0.4586776793003082
+    }
+  },
+  "crop_margin_ratio": 0.03,
+  "image_tokens_min": 1090,
+  "image_tokens_median": 3010.0,
+  "image_tokens_max": 4162,
+  "text_tokens_min": 16,
+  "text_tokens_median": 664.5,
+  "text_tokens_max": 10182,
+  "peak_gpu_allocated_GB": 4.913262592,
+  "peak_gpu_reserved_GB": 6.088032256,
+  "seconds": 281.1366411931813
+}

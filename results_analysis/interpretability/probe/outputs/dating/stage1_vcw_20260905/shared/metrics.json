@@ -1,0 +1,36 @@
+{
+  "coverage": {
+    "manuscripts": 917,
+    "pages": 44070,
+    "test_manuscripts": 273,
+    "test_pages": 12499
+  },
+  "image": {
+    "accuracy_top1": 0.26282102568205457,
+    "accuracy_top3": 0.5972477798223857,
+    "expected_calibration_error": 0.19447096589672166,
+    "log_loss": 2.2796304540341095,
+    "macro_f1": 0.2356552772722467,
+    "mean_confidence": 0.4572919915787762,
+    "mean_confidence_correct": 0.4643802250636768,
+    "mean_confidence_incorrect": 0.45476487555990297,
+    "num_examples": 12499
+  },
+  "input_dimension": 1536,
+  "majority_label": 1450,
+  "majority_manuscript_accuracy": 0.358974358974359,
+  "manuscript": {
+    "accuracy_top1": 0.3443223443223443,
+    "accuracy_top3": 0.7362637362637363,
+    "expected_calibration_error": 0.0992077358096196,
+    "log_loss": 1.8034703924541293,
+    "macro_f1": 0.29264284640970983,
+    "mean_confidence": 0.4417234413496997,
+    "mean_confidence_correct": 0.4913528056202655,
+    "mean_confidence_incorrect": 0.4156610936321957,
+    "num_examples": 273
+  },
+  "selected_epoch": 8,
+  "space": "shared",
+  "temperature": 3.005046752390898
+}

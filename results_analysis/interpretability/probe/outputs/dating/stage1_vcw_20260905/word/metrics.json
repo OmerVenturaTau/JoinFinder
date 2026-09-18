@@ -1,0 +1,36 @@
+{
+  "coverage": {
+    "manuscripts": 917,
+    "pages": 43494,
+    "test_manuscripts": 273,
+    "test_pages": 12291
+  },
+  "image": {
+    "accuracy_top1": 0.23114474005369784,
+    "accuracy_top3": 0.6809860873810105,
+    "expected_calibration_error": 0.026637147210609127,
+    "log_loss": 1.8026349000264796,
+    "macro_f1": 0.1975248741171512,
+    "mean_confidence": 0.23057979205532844,
+    "mean_confidence_correct": 0.22704800460337862,
+    "mean_confidence_incorrect": 0.23164157069564478,
+    "num_examples": 12291
+  },
+  "input_dimension": 512,
+  "majority_label": 1450,
+  "majority_manuscript_accuracy": 0.358974358974359,
+  "manuscript": {
+    "accuracy_top1": 0.23443223443223443,
+    "accuracy_top3": 0.6776556776556777,
+    "expected_calibration_error": 0.04822911787100894,
+    "log_loss": 1.8017351893291251,
+    "macro_f1": 0.2327157668565929,
+    "mean_confidence": 0.2111288268339388,
+    "mean_confidence_correct": 0.21840723435384563,
+    "mean_confidence_incorrect": 0.2089000321866946,
+    "num_examples": 273
+  },
+  "selected_epoch": 16,
+  "space": "word",
+  "temperature": 3.4788056516427317
+}

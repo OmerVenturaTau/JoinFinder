@@ -1,0 +1,42 @@
+{
+  "coefficient_norms": {
+    "l1": 816.7701416015625,
+    "l2": 27.533479690551758,
+    "max_abs": 3.0614571571350098
+  },
+  "coverage": {
+    "manuscripts": 908,
+    "pages": 43415,
+    "test_manuscripts": 273
+  },
+  "input_dimension": 1536,
+  "intercepts": {
+    "original_space": 1381.780722197026,
+    "standardized_space": 1381.2076416015625
+  },
+  "median_baseline": {
+    "mae_years": 63.91941391941392,
+    "nearest_bucket_accuracy": 0.1794871794871795,
+    "num_manuscripts": 273,
+    "r2": -0.005927111227222337,
+    "rmse_years": 78.73775269610951,
+    "spearman_rho": null,
+    "within_100_years": 0.8937728937728938,
+    "within_25_years": 0.1794871794871795,
+    "within_50_years": 0.6666666666666666
+  },
+  "median_baseline_year": 1400.0,
+  "selected_alpha": 1000.0,
+  "space": "shared",
+  "test": {
+    "mae_years": 55.48583581945398,
+    "nearest_bucket_accuracy": 0.29304029304029305,
+    "num_manuscripts": 273,
+    "r2": 0.21188788996581742,
+    "rmse_years": 69.69373809942648,
+    "spearman_rho": 0.4997096343139723,
+    "within_100_years": 0.8388278388278388,
+    "within_25_years": 0.29304029304029305,
+    "within_50_years": 0.5128205128205128
+  }
+}

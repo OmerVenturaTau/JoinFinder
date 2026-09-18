@@ -1,0 +1,38 @@
+{
+  "coefficient_norms": {
+    "l1": 84.32417716917284,
+    "l2": 2.9892771386945403,
+    "max_abs": 0.34095162319974204
+  },
+  "coverage": {
+    "manuscripts": 1209,
+    "pages": 56421,
+    "test_manuscripts": 363,
+    "test_pages": 15887
+  },
+  "image": {
+    "accuracy": 0.7694341285327626,
+    "balanced_accuracy": 0.757305994287973,
+    "log_loss": 0.8941359042648543,
+    "macro_f1": 0.7545840735305476,
+    "num_examples": 15887,
+    "pr_auc": 0.8795868628146897,
+    "roc_auc": 0.9012037886120536,
+    "sensitivity": 0.5572232645403377,
+    "specificity": 0.9573887240356083
+  },
+  "input_dimension": 1536,
+  "manuscript": {
+    "accuracy": 0.9393939393939394,
+    "balanced_accuracy": 0.7543939739785437,
+    "log_loss": 0.18354992428785216,
+    "macro_f1": 0.7637278106508876,
+    "num_examples": 363,
+    "pr_auc": 0.49744945985720723,
+    "roc_auc": 0.9084683862131933,
+    "sensitivity": 0.5384615384615384,
+    "specificity": 0.9703264094955489
+  },
+  "selected_C": 0.01,
+  "space": "shared"
+}

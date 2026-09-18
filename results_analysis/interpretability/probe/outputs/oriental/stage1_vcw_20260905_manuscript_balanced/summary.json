@@ -1,0 +1,154 @@
+[
+  {
+    "coefficient_norms": {
+      "l1": 728.1031725576903,
+      "l2": 39.820536574004855,
+      "max_abs": 6.129065106047082
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 56421,
+      "test_manuscripts": 363,
+      "test_pages": 15887
+    },
+    "image": {
+      "accuracy": 0.6278089003587839,
+      "balanced_accuracy": 0.6082347593782782,
+      "log_loss": 3.556043452077082,
+      "macro_f1": 0.5724646252184439,
+      "num_examples": 15887,
+      "pr_auc": 0.722565205601508,
+      "roc_auc": 0.7852073294007144,
+      "sensitivity": 0.2853122487268829,
+      "specificity": 0.9311572700296736
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "accuracy": 0.90633608815427,
+      "balanced_accuracy": 0.6123601917370464,
+      "log_loss": 0.38537106997301923,
+      "macro_f1": 0.6207595870206489,
+      "num_examples": 363,
+      "pr_auc": 0.23296338110382966,
+      "roc_auc": 0.8035836566993837,
+      "sensitivity": 0.2692307692307692,
+      "specificity": 0.9554896142433235
+    },
+    "selected_C": 10.0,
+    "space": "tile"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 322.13449479480175,
+      "l2": 17.992903368649795,
+      "max_abs": 2.6861744039734545
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 55355,
+      "test_manuscripts": 363,
+      "test_pages": 15524
+    },
+    "image": {
+      "accuracy": 0.5730481834578717,
+      "balanced_accuracy": 0.5462874674668692,
+      "log_loss": 4.90053838105432,
+      "macro_f1": 0.4780808305040772,
+      "num_examples": 15524,
+      "pr_auc": 0.6587317949855678,
+      "roc_auc": 0.7243846788899271,
+      "sensitivity": 0.1573049252905368,
+      "specificity": 0.9352700096432015
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "accuracy": 0.8980716253443526,
+      "balanced_accuracy": 0.590162063455832,
+      "log_loss": 0.4265447479587613,
+      "macro_f1": 0.5951225394145842,
+      "num_examples": 363,
+      "pr_auc": 0.24885437561979204,
+      "roc_auc": 0.8137411549874458,
+      "sensitivity": 0.23076923076923078,
+      "specificity": 0.9495548961424333
+    },
+    "selected_C": 1.0,
+    "space": "glyph"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 371.6063747686748,
+      "l2": 20.65876868243974,
+      "max_abs": 2.6469613492676944
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 55582,
+      "test_manuscripts": 363,
+      "test_pages": 15606
+    },
+    "image": {
+      "accuracy": 0.7140843265410739,
+      "balanced_accuracy": 0.7115303240514617,
+      "log_loss": 0.5803707769232368,
+      "macro_f1": 0.7119543088548641,
+      "num_examples": 15606,
+      "pr_auc": 0.7964596480364201,
+      "roc_auc": 0.7820065337001376,
+      "sensitivity": 0.67414030261348,
+      "specificity": 0.7489203454894434
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "accuracy": 0.7878787878787878,
+      "balanced_accuracy": 0.7260328692079434,
+      "log_loss": 0.46600374892432794,
+      "macro_f1": 0.590551527136893,
+      "num_examples": 363,
+      "pr_auc": 0.39186262259971616,
+      "roc_auc": 0.7695731568135129,
+      "sensitivity": 0.6538461538461539,
+      "specificity": 0.798219584569733
+    },
+    "selected_C": 10.0,
+    "space": "word"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 84.32417716917284,
+      "l2": 2.9892771386945403,
+      "max_abs": 0.34095162319974204
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 56421,
+      "test_manuscripts": 363,
+      "test_pages": 15887
+    },
+    "image": {
+      "accuracy": 0.7694341285327626,
+      "balanced_accuracy": 0.757305994287973,
+      "log_loss": 0.8941359042648543,
+      "macro_f1": 0.7545840735305476,
+      "num_examples": 15887,
+      "pr_auc": 0.8795868628146897,
+      "roc_auc": 0.9012037886120536,
+      "sensitivity": 0.5572232645403377,
+      "specificity": 0.9573887240356083
+    },
+    "input_dimension": 1536,
+    "manuscript": {
+      "accuracy": 0.9393939393939394,
+      "balanced_accuracy": 0.7543939739785437,
+      "log_loss": 0.18354992428785216,
+      "macro_f1": 0.7637278106508876,
+      "num_examples": 363,
+      "pr_auc": 0.49744945985720723,
+      "roc_auc": 0.9084683862131933,
+      "sensitivity": 0.5384615384615384,
+      "specificity": 0.9703264094955489
+    },
+    "selected_C": 0.01,
+    "space": "shared"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "model": "Alibaba-NLP/gme-Qwen2-VL-2B-Instruct",
+  "input": "ALTO TextBlock polygon-masked fragment and raw OCR; no metadata",
+  "num_test_pages": 242,
+  "num_clusters": 85,
+  "embedding_dim": 1536,
+  "representations": {
+    "image_crop_only": {
+      "mAP": 0.16594679653644562,
+      "KNN@1": 0.20661157369613647,
+      "KNN@5": 0.32231405377388,
+      "KNN@10": 0.37603306770324707
+    },
+    "ocr_only": {
+      "mAP": 0.2051864117383957,
+      "KNN@1": 0.17768594622612,
+      "KNN@5": 0.3595041334629059,
+      "KNN@10": 0.4752066135406494
+    },
+    "native_joint_image_ocr": {
+      "mAP": 0.20925374329090118,
+      "KNN@1": 0.1859504133462906,
+      "KNN@5": 0.40495866537094116,
+      "KNN@10": 0.5289255976676941
+    }
+  },
+  "crop_margin_ratio": 0.03,
+  "peak_gpu_allocated_GB": 6.29366016,
+  "peak_gpu_reserved_GB": 7.04643072,
+  "seconds": 630.908312369138
+}
