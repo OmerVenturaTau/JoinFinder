@@ -1,0 +1,37 @@
+[
+  {
+    "best_epoch": 33,
+    "fold": 0,
+    "train_pages": 24000,
+    "validation_manuscript_macro_f1": 0.24565762739675787,
+    "validation_pages": 6916
+  },
+  {
+    "best_epoch": 15,
+    "fold": 1,
+    "train_pages": 25953,
+    "validation_manuscript_macro_f1": 0.21644457800073622,
+    "validation_pages": 4963
+  },
+  {
+    "best_epoch": 7,
+    "fold": 2,
+    "train_pages": 23520,
+    "validation_manuscript_macro_f1": 0.2178933508887426,
+    "validation_pages": 7396
+  },
+  {
+    "best_epoch": 6,
+    "fold": 3,
+    "train_pages": 23529,
+    "validation_manuscript_macro_f1": 0.2801629915339062,
+    "validation_pages": 7387
+  },
+  {
+    "best_epoch": 13,
+    "fold": 4,
+    "train_pages": 26662,
+    "validation_manuscript_macro_f1": 0.2704470749670922,
+    "validation_pages": 4254
+  }
+]

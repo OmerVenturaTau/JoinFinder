@@ -1,0 +1,14 @@
+{
+  "source": "geniza",
+  "seed": 8472917007555711145,
+  "requested_manuscripts": 250,
+  "pages_per_manuscript": 2,
+  "candidate_multiplier": 2,
+  "merge_final_forms": false,
+  "targets": [
+    "א",
+    "מ"
+  ],
+  "confidence_filter_applied": true,
+  "confidence_threshold": 0.92
+}

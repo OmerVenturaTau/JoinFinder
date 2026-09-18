@@ -1,0 +1,86 @@
+{
+  "tile": {
+    "encoder_model_name": "vit_base_patch14_dinov2.lvd142m",
+    "encoder_type": "convnext",
+    "convnext_model_name": "convnext_tiny.fb_in22k_ft_in1k",
+    "use_transformer": true,
+    "transformer_layers": 4,
+    "transformer_heads": 12,
+    "transformer_dim_feedforward": 3072,
+    "transformer_dropout": 0.3,
+    "num_summary_tokens": 8,
+    "min_summary_tokens": 2,
+    "summarizer_cross_attn_layers": 2,
+    "summarizer_attention_heads": 12,
+    "enable_pos_encoding": true,
+    "use_fourier_pos": true,
+    "num_freqs": 64
+  },
+  "fusion": {
+    "d_model": 768,
+    "num_layers": 4,
+    "num_heads": 12,
+    "dropout": 0.15,
+    "latent_dim": 1536,
+    "method": "symmetric",
+    "use_branch_adapters_and_summarizers": true,
+    "symmetric_branch_dim": 512,
+    "symmetric_reliability_hidden_dim": 64,
+    "transformer_num_layers": 4,
+    "transformer_num_heads": 12,
+    "transformer_dim_feedforward": 3072,
+    "transformer_dropout": 0.15,
+    "transformer_use_residual_pool": false,
+    "transformer_residual_cls_gate": 0.10,
+    "transformer_residual_tile_weight": 0.85,
+    "transformer_residual_glyph_weight": 0.15,
+    "transformer_residual_word_weight": 0.10
+  },
+  "glyph": {
+    "input_letters": "אמ",
+    "char_patch_size": 128,
+    "max_chars_per_image": 16,
+    "glyphs_per_class": 8,
+    "char_patch_apply_randaugment": false,
+    "char_patch_apply_imagenet_norm": true,
+    "encoder_type": "convnext_tiny",
+    "enable_pos_encoding": true,
+    "use_fourier_pos": true,
+    "num_freqs": 64,
+    "num_summary_tokens": 8,
+    "min_summary_tokens": 4,
+    "summarizer_cross_attn_layers": 2,
+    "summarizer_attention_heads": 12
+  },
+  "word": {
+    "max_words_per_image": 64,
+    "use_hebrew_dict_check": false,
+    "use_tfidf_gating": false,
+    "tfidf_dictionary_path": "utilities/HebrewDict/bhsa_normalized_dict.json",
+    "freeze_alephbert": false,
+    "line_max_length": 96,
+    "word_pooling": "mean",
+    "attention_heads": 12,
+    "enable_pos_encoding": true,
+    "use_fourier_pos": true,
+    "num_freqs": 64,
+    "min_area": 1.0,
+    "num_summary_tokens": 24,
+    "min_summary_tokens": 2
+  },
+  "modalities": {
+    "use_visual": true,
+    "use_char": true,
+    "use_word": true
+  },
+  "perceiver": {
+    "num_latents": 256,
+    "num_cross_attn_layers": 8,
+    "pooling": "mean"
+  },
+  "vlad": {
+    "num_clusters": 32,
+    "assignment_temperature": 1.0,
+    "normalize_input": true
+  }
+}

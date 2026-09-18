@@ -1,0 +1,130 @@
+[
+  {
+    "coefficient_norms": {
+      "l1": 496.27230171826784,
+      "l2": 28.02698988165373,
+      "max_abs": 4.062729780506971
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 56421,
+      "test_manuscripts": 363,
+      "test_pages": 15887
+    },
+    "image": {
+      "balanced_accuracy": 0.5973394218143441,
+      "log_loss": 4.159758149394362,
+      "macro_f1": 0.552373123961423,
+      "num_examples": 15887,
+      "pr_auc": 0.7435547565285874,
+      "roc_auc": 0.8147860693985034
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "balanced_accuracy": 0.6330746404930381,
+      "log_loss": 0.376968860012628,
+      "macro_f1": 0.6430678466076696,
+      "num_examples": 363,
+      "pr_auc": 0.25046594351227824,
+      "roc_auc": 0.8371376398082631
+    },
+    "selected_C": 10.0,
+    "space": "tile"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 63.05618520895632,
+      "l2": 3.5239165728922606,
+      "max_abs": 0.5785134703017716
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 55355,
+      "test_manuscripts": 363,
+      "test_pages": 15524
+    },
+    "image": {
+      "balanced_accuracy": 0.5704962993480299,
+      "log_loss": 2.059327535942382,
+      "macro_f1": 0.5008757880613302,
+      "num_examples": 15524,
+      "pr_auc": 0.6939988400601838,
+      "roc_auc": 0.740831387260194
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "balanced_accuracy": 0.5857680894772883,
+      "log_loss": 0.2916155688514952,
+      "macro_f1": 0.6112301101591188,
+      "num_examples": 363,
+      "pr_auc": 0.2794614527362876,
+      "roc_auc": 0.7966217758502625
+    },
+    "selected_C": 0.01,
+    "space": "glyph"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 301.09710110030153,
+      "l2": 16.50319880527198,
+      "max_abs": 2.2699801460552473
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 55582,
+      "test_manuscripts": 363,
+      "test_pages": 15606
+    },
+    "image": {
+      "balanced_accuracy": 0.6751077509392318,
+      "log_loss": 0.9463718082449667,
+      "macro_f1": 0.6518220179879866,
+      "num_examples": 15606,
+      "pr_auc": 0.801410215708515,
+      "roc_auc": 0.7834604453397471
+    },
+    "input_dimension": 512,
+    "manuscript": {
+      "balanced_accuracy": 0.6493951152704862,
+      "log_loss": 0.2024755050557486,
+      "macro_f1": 0.7009767387125878,
+      "num_examples": 363,
+      "pr_auc": 0.4160467480917717,
+      "roc_auc": 0.7820132389865329
+    },
+    "selected_C": 10.0,
+    "space": "word"
+  },
+  {
+    "coefficient_norms": {
+      "l1": 70.21525732032838,
+      "l2": 2.470406638056672,
+      "max_abs": 0.2881361269017629
+    },
+    "coverage": {
+      "manuscripts": 1209,
+      "pages": 56421,
+      "test_manuscripts": 363,
+      "test_pages": 15887
+    },
+    "image": {
+      "balanced_accuracy": 0.6978942646699757,
+      "log_loss": 1.1948816097238946,
+      "macro_f1": 0.6811504995482646,
+      "num_examples": 15887,
+      "pr_auc": 0.8833918637006245,
+      "roc_auc": 0.8989606369602027
+    },
+    "input_dimension": 1536,
+    "manuscript": {
+      "balanced_accuracy": 0.7026363843871263,
+      "log_loss": 0.1810611684255891,
+      "macro_f1": 0.7404406006333208,
+      "num_examples": 363,
+      "pr_auc": 0.5390036764618402,
+      "roc_auc": 0.9082401278246975
+    },
+    "selected_C": 0.01,
+    "space": "shared"
+  }
+]

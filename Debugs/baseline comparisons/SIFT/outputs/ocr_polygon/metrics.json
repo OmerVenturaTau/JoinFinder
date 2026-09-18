@@ -1,0 +1,23 @@
+{
+  "input": "ALTO TextBlock polygon-masked fragment; 3% margin; white exterior",
+  "num_test_pages": 242,
+  "num_clusters": 85,
+  "max_keypoints": 4096,
+  "resize_max_side": 1600,
+  "native_rootsift": {
+    "mAP": 0.2553693652153015,
+    "KNN@1": 0.2933884263038635,
+    "KNN@5": 0.43801653385162354,
+    "KNN@10": 0.5165289044380188
+  },
+  "ce_trained": {
+    "mAP": 0.20941691100597382,
+    "KNN@1": 0.21900826692581177,
+    "KNN@5": 0.3636363744735718,
+    "KNN@10": 0.4917355477809906
+  },
+  "checkpoint": "/home/omerv/JoinsFinder/Debugs/SIFT/outputs/sift_ce/stage1/best.pth",
+  "checkpoint_epoch": 11,
+  "checkpoint_best_val_accuracy": 0.3137272244825756,
+  "seconds": 295.14903248474
+}

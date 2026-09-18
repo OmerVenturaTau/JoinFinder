@@ -1,0 +1,44 @@
+{
+  "model": "Hcompany/NeoMME-800M-Retriever",
+  "input": "separate ALTO TextBlock polygon-masked fragment and raw OCR encodings; no metadata",
+  "fusion": "reports both normalized vector averaging and equal-weight concatenation of normalized image/OCR dense vectors",
+  "num_test_pages": 242,
+  "single_modality_embedding_dim": 1792,
+  "fused_embedding_dim": 3584,
+  "representations": {
+    "image_crop_only": {
+      "mAP": 0.1522812694311142,
+      "KNN@1": 0.1735537201166153,
+      "KNN@5": 0.3016528785228729,
+      "KNN@10": 0.3719008266925812
+    },
+    "ocr_only": {
+      "mAP": 0.1303822249174118,
+      "KNN@1": 0.09090909361839294,
+      "KNN@5": 0.28099173307418823,
+      "KNN@10": 0.39669421315193176
+    },
+    "image_ocr_normalized_vector_average": {
+      "mAP": 0.18683327734470367,
+      "KNN@1": 0.20661157369613647,
+      "KNN@5": 0.3636363744735718,
+      "KNN@10": 0.4710743725299835
+    },
+    "image_ocr_equal_weight_fusion": {
+      "mAP": 0.19400835037231445,
+      "KNN@1": 0.20247933268547058,
+      "KNN@5": 0.38429751992225647,
+      "KNN@10": 0.4628099203109741
+    }
+  },
+  "crop_margin_ratio": 0.03,
+  "image_tokens_min": 1282,
+  "image_tokens_median": 3074.0,
+  "image_tokens_max": 4162,
+  "text_tokens_min": 16,
+  "text_tokens_median": 664.5,
+  "text_tokens_max": 10182,
+  "peak_gpu_allocated_GB": 4.91276544,
+  "peak_gpu_reserved_GB": 5.86153984,
+  "seconds": 265.8246520124376
+}

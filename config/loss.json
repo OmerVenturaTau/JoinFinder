@@ -1,0 +1,29 @@
+{
+  "loss": {
+    "arcface_weight": 1.0,
+    "arcface_margin": 0.12,
+    "arcface_scale": 24.0,
+    "arcface_margin_warmup_epochs": 3,
+    "ce_weight": 0.0,
+    "geniza_contrastive_enabled": false,
+    "geniza_contrastive_table": "geniza_train_set",
+    "geniza_contrastive_weight": 2.0,
+    "geniza_contrastive_temperature": 0.1,
+    "geniza_queue_size": 8192,
+    "geniza_pk_k": 4,
+    "geniza_demo_fraction": 0.1,
+    "geniza_demo_min_train_manuscripts": 8,
+    "geniza_demo_min_val_manuscripts": 4,
+    "geniza_demo_max_images_per_manuscript": 8,
+    "latent_sparsity_weight": 0.0,
+    "tile_aux_loss_weight": 0.1,
+    "glyph_aux_loss_weight": 0.3,
+    "fusion_aux_loss_weight": 0.0,
+    "word_aux_loss_weight": 0.05,
+    "word_aux_full_weight_epochs": 2,
+    "word_aux_decay_end_epoch": 5,
+    "shared_branch_arcface": false,
+    "gate_entropy_weight": 0.01,
+    "gate_entropy_decay_epochs": 5
+  }
+}
